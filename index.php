@@ -6,7 +6,7 @@
             <h2><a href="<?php echo G5_SHOP_URL; ?>/listtype.php?type=1">HIT ITEM</a></h2>
         </header>
         <?php
-        $list = new item_list();
+        $list = new item_list(); //
         $list->set_type(1);
         $list->set_view('it_img', true);
         $list->set_view('it_id', false);
